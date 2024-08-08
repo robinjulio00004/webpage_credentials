@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <script src="./code/aframe-v1.6.0.min.js"></script>
+    <script src="./code/aframe-ar.js"></script>
+	</head>
+    <body style="margin : 0px; overflow: hidden;">
+        <a-scene embedded arjs>
+        <a-marker type="pattern" url="./target/number_43.patt">
+
+	    <a-entity 
+	    rotation="0 -90 90 "
+            position="0 0 0"
+            scale="1 1 1"
+            gltf-model="./target/credential_43.gltf">
+            </a-entity> 
+	</a-marker> 
+	<a-entity camera></a-entity>      
+        </a-scene>
+    </body>
+</html>
